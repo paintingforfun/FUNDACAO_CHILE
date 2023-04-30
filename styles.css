@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 32px;
+}
+
+/* NAV */
+
+.nav {
+    background: rgba(12, 12, 12, 0.877);
+    padding: 10px;
+}
+
+.nav div {
+    display: flex;
+    justify-content: space-between;
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.nav li {
+    display: inline;
+    padding-right: 25px;
+}
+
+.nav li a,
+.nav div a  {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+/* LOGO */
+
+.logo h1 {
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Permanent Marker', cursive;
+    padding: 16px;
+}
+
+/* SOBRE */
+
+#about div img {
+    height: 600px;
+    padding-top: 20px;
+}
+
+#about .container {
+    display: flex;
+}
+
+#about div h2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 25px;
+}
+
+p {
+    word-spacing: 3px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 20px;
+}
+
+#about div p {
+    padding-left: 25px;
+}
+
+#about hr {
+    margin-top: 80px;
+    margin-bottom: 85px;
+}
+
+/* SANTIAGO */
+
+#santiago h2 {
+    text-align: center;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(32, 17, 20, 0.1);
+}
+
+#santiago .container {
+    align-self: auto;
+}
+
+#santiago .santiago-city {
+    height: 550px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    display: block;
+    margin: 0 auto  ;
+}
+
+#santiago h3 {
+    font-family: 'Lobster', cursive;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+#santiago .pontos-turisticos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pontos-turisticos article {
+    width: 46%;    
+}
+
+.pontos-turisticos article img {
+    height: 470px;
+    padding-top: 50px;
+}
+
+.pontos-turisticos article header {
+    color: rgb(138, 142, 146);
+    padding-bottom: 20px;
+}
+
+.pontos-turisticos article p {
+    padding-bottom: 15px;
+}
+
+#santiago hr {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+/* VALORES */
+
+
+#price h2 {
+    text-align: center;
+    margin-top: 70px;
+    border-top: 1px solid rgb(13, 13, 14);
+    padding-top: 50px;
+    margin-bottom: 40px;  
+    border-bottom: 1px solid rgb(32, 17, 20, 0.1);
+    padding-bottom: 30px;
+}
+
+#price .container {
+    height: 700px;
+    font-family: 'Konkhmer Sleokchher', cursive;
+}
+
+#price .articles article {
+    width: 24%;
+    overflow: hidden;
+    border: 1px solid rgb(104, 99, 99);
+    border-radius: 10px;
+}
+
+#price .container .articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.prices .articles article img{
+    height: 400px;
+}
+
+.prices .articles article header a {
+    text-decoration: none;
+}
+
+.prices .articles article header a span {
+    color: rgb(168, 168, 168);
+}
+
+.prices .articles article header a p {
+    padding-top: 10px;
+    font-weight: bold;
+    color: #252222;
+    font-size: 16px;
+}
+
+.prices .articles article header {
+    padding-left: 5px;
+}
+
+/* CONTATO */
+
+#contact h2 {
+    padding-bottom: 50px;
+}
+
+#contact .container h3 {
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+
+}
+
+#contact .container .contact-forms {
+    display: flex;
+}
+
+form,
+.social {
+    width: 30%;
+}
+
+#contact .container form input,
+#contact .container form button,
+#contact .container form textarea {
+    display: block;
+    margin-top: 10px;
+    width: 320px;
+    padding: 6px;
+
+}
+
+#contact .container form textarea {
+    margin-top: 10px;
+    height: 150px;
+    width: 320px;
+    resize: none;
+}
+
+.contact-forms  h3,
+.contact-forms  p {
+    padding-bottom: 25px;
+    padding-left: 15px;
+}
+
+.icons ul li  a img {
+    height: 60px;
+    padding-right: 5px;
+}
+
+.icons ul li {
+    display: inline;
+}
+
+.social {
+    padding-left: 15px;
+    padding-right: 15px;
+    border-left: 1px solid rgb(174, 174, 175);
+    border-right: 1px solid rgb(174, 174, 175);
+}
+
+#contact {
+    padding-bottom: 80px;
+}
+
+/* RODAPÉ */
+
+footer {
+    background: rgb(134, 130, 130);
+}
+
+footer .container p {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    font-weight: bold;
+}
